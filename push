@@ -1,0 +1,4 @@
+#!/bin/sh
+
+git commit -a -m "updated website"
+git push origin master || exit 1

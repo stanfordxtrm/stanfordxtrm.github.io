@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ssh corn.stanford.edu << 'ENDSSH'
+cd /afs/ir.stanford.edu/group/xtrmkpopfusion/WWW
+git pull origin master
+ENDSSH

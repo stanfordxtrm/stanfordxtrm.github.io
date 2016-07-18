@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Simplifica';
+  src: url('simplifica.ttf');
+}
+
+.title {
+  font-family: 'Simplifica', 'arial', 'sans-serif';
+  font-size: 52px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.cbox {
+  width: 560px;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+}
