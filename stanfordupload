@@ -1,3 +1,0 @@
-#!/bin/bash
-
-rsync -avx ./* corn.stanford.edu:/afs/ir.stanford.edu/group/xtrmkpopfusion/WWW/
