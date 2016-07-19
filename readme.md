@@ -44,3 +44,7 @@ git diff
 ## More info
 
 [Git Reference](http://gitref.org/)
+
+# Adding new collaborators
+
+Please add them to the organization https://github.com/stanfordxtrm/ and give them write access to this repository.
