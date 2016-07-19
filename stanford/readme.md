@@ -1,8 +1,8 @@
 ## Switching between iframe-embedding and direct modes
 
-The website at http://xtrm.stanford.edu is currently using an iframe to embed the contents of http://stanfordxtrm.github.io
+The website at http://xtrm.stanford.edu is currently using an iframe to embed the contents of http://stanfordxtrm.github.io - that way, you simply need to push changes to this github repo and they will be reflected on the main site.
 
-If you would like to instead have the site be served directly from Stanford's servers, you will need to do the following:
+If you would like to instead have the site be served directly from Stanford's servers (which will add additional steps to the process of making changes and adding collaborators), you will need to do the following:
 
 ### Stanford SSH Setup
 
