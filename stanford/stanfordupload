@@ -3,5 +3,6 @@
 ssh myth.stanford.edu << 'ENDSSH'
 cd /afs/ir.stanford.edu/group/xtrmkpopfusion/WWW
 git reset --hard
+git clean -d -fx ""
 git pull origin master
 ENDSSH
