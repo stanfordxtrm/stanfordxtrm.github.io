@@ -1,4 +1,0 @@
-#!/bin/sh
-
-./push || exit 1
-./stanfordupload
