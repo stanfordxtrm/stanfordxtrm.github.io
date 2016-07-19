@@ -30,7 +30,7 @@ pts adduser your-sunnet-id xtrmkpopfusion-admins
 
 ### Uploading to Stanford's servers
 
-Once you have made your changes and pushed, to upload to Stanford's servers you will need to run
+Once you have made your changes and pushed by running `./push`, to upload to Stanford's servers you will need to run
 
 ```
 ./stanford/stanfordupload
