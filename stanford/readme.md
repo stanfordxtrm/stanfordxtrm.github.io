@@ -41,5 +41,6 @@ Once you have made your changes and pushed by running `./push`, to upload to Sta
 If you would like to switch back to iframe-embedding mode, run the command
 
 ```
+./stanford/stanfordupload-delete
 ./stanford/stanfordupload-iframe
 ```

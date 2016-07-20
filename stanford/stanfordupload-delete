@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ssh myth.stanford.edu << 'ENDSSH'
+cd /afs/ir.stanford.edu/group/xtrmkpopfusion/WWW
+rm -rf .git &> /dev/null
+git init
+git reset --hard
+git clean -d -fx ""
+rm -rf .git &> /dev/null
+ENDSSH
