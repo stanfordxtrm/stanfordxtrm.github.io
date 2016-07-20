@@ -2,7 +2,13 @@
 
 ssh myth.stanford.edu << 'ENDSSH'
 cd /afs/ir.stanford.edu/group/xtrmkpopfusion/WWW
+rm -rf .git &> /dev/null
+git init
 git reset --hard
 git clean -d -fx ""
+git remote rm origin &> /dev/null
+git remote add origin git@github.com:stanfordxtrm/stanfordxtrm.github.io.git
 git pull origin master
+git reset --hard
+git clean -d -fx ""
 ENDSSH
